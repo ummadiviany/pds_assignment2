@@ -13,26 +13,26 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
 
 ## Task Allocation
 
-| Student Identifier | Tasks Allotted |
-|:----------:|:--------------:|
-| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | Task 2 |
-| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | Task 2 |
-| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | Task 2 |
-| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | Task 2 |
-| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | Task 2 |
-| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | Task 6 |
-| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | Task 8 |
-| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | Task 10 |
-| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             | Task 13 |
-| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | Task 14 |
-| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | Task 1 |
-| samriddha.das2000@kgpian.iitkgp.ac.in         | Task 1 |
-| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | Task 1 |
-| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | Task 1 |
+| Student Identifier                            | Tasks Allotted                |
+|:---------------------------------------------:|:-----------------------------:|
+| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | Task 2, Task 5 |
+| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | Task 2, Task 5 |
+| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | Task 2, Task 5, Task 7 |
+| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5, Task 7 |
+| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5 |
+| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | Task 3, Task 6 |
+| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | Task 3, Task 6, Task 7 |
+| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | Task 3, Task 6 |
+| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             | Task 3, Task 6, Task 7 |
+| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | Task 3, Task 6 |
+| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | Task 1, Task 4 |
+| samriddha.das2000@kgpian.iitkgp.ac.in         | Task 1, Task 4 |
+| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | Task 1, Task 4, Task 7 |
+| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | Task 1, Task 4 |
 
 
 
----
+---                     
 ## Tasks
 
 ### Task 1 : Recursive file text search
@@ -61,7 +61,7 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
             Reasoning : 2+3*4^2 => 2+3*16 => 2+48 => 50
 
 
-### Task 3 : Object Oriented Programming for Hospital Management System(HMS)
+### Task 4 : Object Oriented Programming for Hospital Management System(HMS)
         1. The task is to implement a the classes `Hospital`, `Patient` and `Doctor` in `hpd_classes.py` file.
         2. The Hospital class should have the following attributes and methods:
                 a. `name` : Name of the hospital
@@ -92,7 +92,7 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
         5. The `id` attribute of the Patient and Doctor class should be auto generated.
 
 
-### Task 4 : Object Oriented Programming for Agriculture Management System(AMS)
+### Task 5 : Object Oriented Programming for Agriculture Management System(AMS)
         1. The task is to implement a the classes `Farm`, `Crop`, `Farmer` and `CropType` in `ams_classes.py` file.
         2. The Farm class should have the following attributes and methods:
                 a. `name` : Name of the farm
@@ -120,39 +120,39 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
                 b. `name` : Name of the farmer
                 c. `age` : Age of the farmer
 
-### Task 5 : Object Oriented Programming for Library Management System(LMS)
-        1. The task is to implement a the classes `Library`, `Book`, `Author` and `Reader` in `lms_classes.py` file.
-        2. The Library class should have the following attributes and methods:
-                a. `name` : Name of the library
-                b. `books` : List of book objects in the library
-                c. `readers` : List of reader objects in the library
-                d. `add_book` : Add a book to the library
-                e. `add_reader` : Add a reader to the library
-                f. `get_book` : Get a book from the library
-                g. `get_reader` : Get a reader from the library
-                h. `get_books` : Get all the books from the library
-                i. `get_readers` : Get all the readers from the library
-                j. `get_books_count` : Get the number of books in the library
-                k. `get_readers_count` : Get the number of readers in the library
-        3. The Book class should have the following attributes and methods:
+### Task 6 : Object Oriented Programming for Class Management System(CMS)
+        1. The task is to implement a the classes `Class`, `Student` and `Teacher` in `cms_classes.py` file.
+        2. The Class class should have the following attributes and methods:
+                a. `name` : Name of the class
+                b. `students` : List of student objects in the class
+                c. `teachers` : List of teacher objects in the class
+                d. `add_student` : Add a student to the class
+                e. `add_teacher` : Add a teacher to the class
+                f. `get_student` : Get a student from the class
+                g. `get_teacher` : Get a teacher from the class
+                h. `get_students` : Get all the students from the class
+                i. `get_teachers` : Get all the teachers from the class
+                j. `get_students_count` : Get the number of students in the class
+                k. `get_teachers_count` : Get the number of teachers in the class
+        3. The Student class should have the following attributes and methods:
                 a. `id` : Auto generated ID 
-                b. `name` : Name of the book
-                c. `author` : Author of the book
-                d. `readers` : List of readers assigned to the book
-                e. `add_reader` : Add a reader to the book
-                f. `get_reader` : Get a reader from the book
-                g. `get_readers` : Get all the readers from the book
-                h. `get_readers_count` : Get the number of readers assigned to the book
-        4. The Author class should have the following attributes and methods:
+                b. `name` : Name of the student
+                c. `age` : Age of the student
+        4. The Teacher class should have the following attributes and methods:
                 a. `id` : Auto generated ID
-                b. `name` : Name of the author
-                c. `books` : List of books written by the author
-                d. `get_book` : Get a book from the author
-                e. `get_books` : Get all the books from the author
-                f. `get_books_count` : Get the number of books written by the author
-        5. The Reader class should have the following attributes and methods:
-                a. `id` : Auto generated ID
-                b. `name
+                b. `name` : Name of the teacher
+                c. `age` : Age of the teacher
+                d. `students` : List of students assigned to the teacher
+                e. `add_student` : Add a student to the teacher
+                f. `get_student` : Get a student from the teacher
+                g. `get_students` : Get all the students from the teacher
+                h. `get_students_count` : Get the number of students assigned to the teacher
 
 
-### Task 6 : Python Sequence Data Types
+### Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions
+1. The task is to implement the set of functions in `medical_transcription.py` file.
+2. These functions are to be used to process the medical transcriptions in `data/mtsamples.csv` file.
+3. This task is heavily oriented towards the use of collections and sequences in Python. Use the most appropriate collections and sequences as possible.
+4. For working with the CSV file, you can use the `csv` module in Python or the `pandas` module. `pandas` doesn't come pre-installed with Python. 
+5. You can install it using `pip install pandas` command.
+6. More clear instructions are given in the `medical_transcription.py` file.
