@@ -7,7 +7,6 @@
 #  */
 # ----------------------------------------------------
 import pandas as pd
-import csv
 from time import time
 
 data = pd.read_csv('data/mtsamples.csv')
@@ -19,15 +18,9 @@ def get_medical_specalities():
     Hint : Use th column 'medical_specialty' in the input csv file. The coulumn might have more than one speciality, in that case, split the string and add each speciality to the list.
     """
     
-    specs = data['medical_specialty'].unique().tolist()
-    nspecs = []
-    for spec in specs:
-        if '/' in spec:
-            nspecs += spec.split('/')
-        else:
-            nspecs.append(spec)
+    
             
-    return list(map(lambda x: x.strip(), sorted(set(nspecs))))
+    return 
 
 
 def get_medical_specialities_count():
@@ -36,19 +29,9 @@ def get_medical_specialities_count():
     Output: Return a dictionary with key as the medical speciality and value as the count of the speciality. The dictionary should be sorted by the count in descending order.
     Hint : Use th column 'medical_specialty' in the input csv file. The coulumn might have more than one speciality, in that case, split the string and add each speciality to the list.
     """
-    specs = get_medical_specalities()
-    all_specs = data['medical_specialty'].tolist()
     
-    spec_count = {}
-    for spec in specs:
-        for s in all_specs:
-            if spec in s:
-                if spec in spec_count:
-                    spec_count[spec] += 1
-                else:
-                    spec_count[spec] = 1
     
-    return dict(sorted(spec_count.items(), key=lambda item: item[1], reverse=True))
+    return 
 
 def get_medical_speciality_sample_names():
     """This function returns a dictionary with key as the medical speciality and value as a list of sample names for that speciality.
@@ -56,24 +39,14 @@ def get_medical_speciality_sample_names():
     Output: Return a dictionary with key as the medical speciality and value as a list of sample names for that speciality.
     Hint : Use th column 'medical_specialty' in the input csv file. The coulumn might have more than one speciality, in that case, split the string and add each speciality to the list.
     """
-    specs = get_medical_specalities()
-    spec_sample_names = {spec: [] for spec in specs}
     
-    for i in range(len(data)):
-        for spec in specs:
-            if spec in data['medical_specialty'][i]:
-                spec_sample_names[spec].append(data['sample_name'][i])
-                
-    return spec_sample_names
-
+    
+    return
 
 
 if __name__ == "__main__":
     start = time()
-    # print(get_medical_specalities())
-    # print('-'*100)
-    # print(get_medical_specialities_count())
-    print('-'*100)
-    print(get_medical_speciality_sample_names())
+    
+        
     
     print(f"Time taken: {time() - start :.2f} seconds")
