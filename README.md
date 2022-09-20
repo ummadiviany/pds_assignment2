@@ -2,8 +2,6 @@
 Assignment 2 for the class CS60013 : Programming and Data Structures is due on **10th October 2022 23:59 IST**. The assignment is worth 10% of the total marks for the course. Assignment submission is done via GitHub.
 
 - [PDS Assignment 2](#pds-assignment-2)
-  - [Assignment 2 : Topics](#assignment-2--topics)
-  - [Task Allocation](#task-allocation)
   - [Instructions](#instructions)
     - [General Instructions](#general-instructions)
     - [Evaluation Policy](#evaluation-policy)
@@ -11,6 +9,8 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
     - [Auto Grading Instructions](#auto-grading-instructions)
     - [Submission Instructions](#submission-instructions)
     - [Deadline](#deadline)
+  - [Assignment 2 : Topics](#assignment-2--topics)
+  - [Task Allocation](#task-allocation)
   - [Tasks](#tasks)
     - [Task 1 : Recursive file text search](#task-1--recursive-file-text-search)
     - [Task 2 : Recursive math expression evaluation](#task-2--recursive-math-expression-evaluation)
@@ -20,36 +20,6 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
     - [Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)
 
 ---
-## Assignment 2 : Topics
-  1. `Recursion`
-  2. `Sequences` [Lists, Tuples, Strings, Dictionaries, Sets]
-  3. `Iteration` and `Comprehensions`
-  4. `Classes` and `Objects`
-  5. `Complexity Analysis`
-
----
-
-
-
-## Task Allocation
-
-| Student Identifier                            | Tasks Allotted                |
-|:---------------------------------------------:|:-----------------------------:|
-| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
-| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
-| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5 |
-| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | Task 3, Task 6 |
-| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
-| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | Task 3, Task 6 |
-| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             | Task 3, Task 6, Task 7 |
-| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
-| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
-| samriddha.das2000@kgpian.iitkgp.ac.in         | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
-| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | [Task 1](#task-1--recursive-file-text-search), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-
 
 ## Instructions
 
@@ -59,6 +29,7 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
 3. Tasks can be completed in any order. Partial credit will be given for completed tasks. 
 4. The assignment submission is handled via GitHub Classroom.
 5. Late submissions will not be accepted.
+6. Any hint of plagiarism will lead to 100% penalty without any further notice.
 
 ### Evaluation Policy
 1. The submissions will be evaluated based on the correctness of the code.
@@ -83,13 +54,62 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
    code .
    ```
 5. Read the instructions in the `README.md` file and start working on the assignment.
-6. 
 
 ### Auto Grading Instructions
+1. The auto grading and test cases are only available for the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions).
+2. All the object oriented programming tasks are not auto graded.
+3. Whoever assigned with the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) should follow the auto grading instructions.
+4. For auto graded questions your code will be tested against the online test cases. For this to work your code should produce the expected output in the format as specified in the test cases and example outputs.
 
 ### Submission Instructions
-
+1. Test your code using the `test cases` provided in the `tests/` directory.
+2. To run the test cases, use the command with `python` or `python3` depending on your system configuration. This command should be run from the assignment root directory.
+   
+   ```bash
+   python -m unittest tests/<test_case_file_name>.py
+   ```
+3. Commit your changes to the local repository using the command 
+   ```bash
+   git add .
+   git commit -m "<commit-message>"
+   ```
+4. Push your changes to the remote repository using the command 
+   ```bash
+   git push
+   ```
+5. Repeat steps 3 and 4 until you are done with the assignment.
 ### Deadline
+
+The deadline for the assignment is **10th October 2022, 23:59 IST**. No late submissions will be accepted.
+
+---
+## Assignment 2 : Topics
+  1. `Recursion`
+  2. `Sequences` [Lists, Tuples, Strings, Dictionaries, Sets]
+  3. `Iteration` and `Comprehensions`
+  4. `Classes` and `Objects`
+  5. `Complexity Analysis`
+
+
+---
+## Task Allocation
+
+| Student Identifier                            | Tasks Allotted                |
+|:---------------------------------------------:|:-----------------------------:|
+| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5 |
+| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | Task 3, Task 6 |
+| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
+| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | Task 3, Task 6 |
+| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             | Task 3, Task 6, Task 7 |
+| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
+| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| samriddha.das2000@kgpian.iitkgp.ac.in         | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | [Task 1](#task-1--recursive-file-text-search), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
 
 ---                     
 ## Tasks
