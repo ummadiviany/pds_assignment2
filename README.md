@@ -1,13 +1,31 @@
-# pds_assignment2
-Assignment 2 for the class CS60013 : Programming and Data Structures is due on **XY, October 2022** at **23:59**. The assignment is worth 10% of the total marks for the course. Assignment submission is done via GitHub.
+# PDS Assignment 2
+Assignment 2 for the class CS60013 : Programming and Data Structures is due on **10th October 2022 23:59 IST**. The assignment is worth 10% of the total marks for the course. Assignment submission is done via GitHub.
+
+- [PDS Assignment 2](#pds-assignment-2)
+  - [Assignment 2 : Topics](#assignment-2--topics)
+  - [Task Allocation](#task-allocation)
+  - [Instructions](#instructions)
+    - [General Instructions](#general-instructions)
+    - [Evaluation Policy](#evaluation-policy)
+    - [Instructions to get started with the assignment](#instructions-to-get-started-with-the-assignment)
+    - [Auto Grading Instructions](#auto-grading-instructions)
+    - [Submission Instructions](#submission-instructions)
+    - [Deadline](#deadline)
+  - [Tasks](#tasks)
+    - [Task 1 : Recursive file text search](#task-1--recursive-file-text-search)
+    - [Task 2 : Recursive math expression evaluation](#task-2--recursive-math-expression-evaluation)
+    - [Task 4 : Object Oriented Programming for Hospital Management System(HMS)](#task-4--object-oriented-programming-for-hospital-management-systemhms)
+    - [Task 5 : Object Oriented Programming for Agriculture Management System(AMS)](#task-5--object-oriented-programming-for-agriculture-management-systemams)
+    - [Task 6 : Object Oriented Programming for Class Management System(CMS)](#task-6--object-oriented-programming-for-class-management-systemcms)
+    - [Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)
 
 ---
 ## Assignment 2 : Topics
-        1. Recursion
-        2. Sequences [Lists, Tuples, Strings, Dictionaries, Sets]
-        3. Iteration and Comprehensions
-        4. Classes and Objects
-        5. Complexity Analysis
+  1. `Recursion`
+  2. `Sequences` [Lists, Tuples, Strings, Dictionaries, Sets]
+  3. `Iteration` and `Comprehensions`
+  4. `Classes` and `Objects`
+  5. `Complexity Analysis`
 
 ---
 
@@ -17,20 +35,20 @@ Assignment 2 for the class CS60013 : Programming and Data Structures is due on *
 
 | Student Identifier                            | Tasks Allotted                |
 |:---------------------------------------------:|:-----------------------------:|
-| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | Task 2, Task 5 |
-| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | Task 2, Task 5 |
-| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | Task 2, Task 5, Task 7 |
-| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5, Task 7 |
+| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
 | MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | Task 2, Task 5 |
 | BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | Task 3, Task 6 |
-| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | Task 3, Task 6, Task 7 |
+| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
 | DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | Task 3, Task 6 |
 | KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             | Task 3, Task 6, Task 7 |
-| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | Task 3, Task 6 |
-| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | Task 1, Task 4 |
-| samriddha.das2000@kgpian.iitkgp.ac.in         | Task 1, Task 4 |
-| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | Task 1, Task 4, Task 7 |
-| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | Task 1, Task 4 |
+| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms) |
+| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| samriddha.das2000@kgpian.iitkgp.ac.in         | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams) |
+| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | [Task 1](#task-1--recursive-file-text-search), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
 
 
 ## Instructions
