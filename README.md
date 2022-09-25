@@ -1,7 +1,7 @@
 # PDS Assignment 2
 > Assignment 2 for the class CS60013 : Programming and Data Structures is due on **10th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub.
 
-> This assignment is crafted by [Vinay](ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
+> This assignment is crafted by [Vinay](https://ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
 - [PDS Assignment 2](#pds-assignment-2)
   - [Instructions](#instructions)
