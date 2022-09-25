@@ -7,4 +7,13 @@
 #  */
 # ------------------------------------------
 
+class Farm:
+    pass
+    
+class Crop:
+    pass
+
+class Farmer:
+    pass
+
 
