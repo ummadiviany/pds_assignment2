@@ -190,31 +190,31 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 ### Task 4 : Object Oriented Programming for Hospital Management System(HMS)
  1. The task is to implement a the classes `Hospital`, `Patient` and `Doctor` in `hms_classes.py` file.
  2. The Hospital class should have the following attributes and methods:
-         a. `name` : Name of the hospital
-         b. `doctors` : List of doctor objects in the hospital
-         c. `patients` : List of patient objects in the hospital
-         d. `add_doctor` : Add a doctor to the hospital
-         e. `add_patient` : Add a patient to the hospital
-         f. `get_doctor` : Get a doctor from the hospital
-         g. `get_patient` : Get a patient from the hospital
-         h. `get_doctors` : Get all the doctors from the hospital
-         i. `get_patients` : Get all the patients from the hospital
-         j. `get_doctors_count` : Get the number of doctors in the hospital
-         k. `get_patients_count` : Get the number of patients in the hospital
+      - `name` : Name of the hospital
+      - `doctors` : List of doctor objects in the hospital
+      - `patients` : List of patient objects in the hospital
+      - `add_doctor` : Add a doctor to the hospital
+      - `add_patient` : Add a patient to the hospital
+      - `get_doctor` : Get a doctor from the hospital
+      - `get_patient` : Get a patient from the hospital
+      - `get_doctors` : Get all the doctors from the hospital
+      - `get_patients` : Get all the patients from the hospital
+      - `get_doctors_count` : Get the number of doctors in the hospital
+      - `get_patients_count` : Get the number of patients in the hospital
  3. The Patient class should have the following attributes and methods:
-         a. `id` : Auto generated ID 
-         b. `name` : Name of the patient
-         c. `age` : Age of the patient
-         d. `gender` : Sex of the patient
+      - `id` : Auto generated ID 
+      - `name` : Name of the patient
+      - `age` : Age of the patient
+      - `gender` : Sex of the patient
  4. The Doctor class should have the following attributes and methods:
-         a. `id` : Auto generated ID
-         b. `name` : Name of the doctor
-         c. `specialization` : Specialization of the doctor
-         d. `patients` : List of patients assigned to the doctor
-         e. `add_patient` : Add a patient to the doctor
-         f. `get_patient` : Get a patient from the doctor
-         g. `get_patients` : Get all the patients from the doctor
-         h. `get_patients_count` : Get the number of patients assigned to the doctor
+      - `id` : Auto generated ID
+      - `name` : Name of the doctor
+      - `specialization` : Specialization of the doctor
+      - `patients` : List of patients assigned to the doctor
+      - `add_patient` : Add a patient to the doctor
+      - `get_patient` : Get a patient from the doctor
+      - `get_patients` : Get all the patients from the doctor
+      - `get_patients_count` : Get the number of patients assigned to the doctor
  5. The `id` attribute of the Patient and Doctor class should be auto generated.
  6. Implement the `__str__` method for the `Hospital`, `Patient` and `Doctor` classes.
  7. Demonstrate the use of implemented classes by creating a hospital object and adding doctors and patients to it.
@@ -225,30 +225,30 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 ### Task 5 : Object Oriented Programming for Agriculture Management System(AMS)
 1. The task is to implement a the classes `Farm`, `Crop`, `Farmer` and  in `ams_classes.py` file.
 2. The Farm class should have the following attributes and methods:
-       a. `name` : Name of the farm
-       b. `crops` : List of crop objects in the farm
-       c. `farmers` : List of farmer objects in the farm
-       d. `add_crop` : Add a crop to the farm
-       e. `add_farmer` : Add a farmer to the farm
-       f. `get_crop` : Get a crop from the farm
-       g. `get_farmer` : Get a farmer from the farm
-       h. `get_crops` : Get all the crops from the farm
-       i. `get_farmers` : Get all the farmers from the farm
-       j. `get_crops_count` : Get the number of crops in the farm
-       k. `get_farmers_count` : Get the number of farmers in the farm
+    - `name` : Name of the farm
+    - `crops` : List of crop objects in the farm
+    - `farmers` : List of farmer objects in the farm
+    - `add_crop` : Add a crop to the farm
+    - `add_farmer` : Add a farmer to the farm
+    - `get_crop` : Get a crop from the farm
+    - `get_farmer` : Get a farmer from the farm
+    - `get_crops` : Get all the crops from the farm
+    - `get_farmers` : Get all the farmers from the farm
+    - `get_crops_count` : Get the number of crops in the farm
+    - `get_farmers_count` : Get the number of farmers in the farm
 3. The Crop class should have the following attributes and methods:
-       a. `id` : Auto generated ID 
-       b. `name` : Name of the crop
-       c. `type` : Type of the crop
-       d. `farmers` : List of farmers assigned to the crop
-       e. `add_farmer` : Add a farmer to the crop
-       f. `get_farmer` : Get a farmer from the crop
-       g. `get_farmers` : Get all the farmers from the crop
-       h. `get_farmers_count` : Get the number of farmers assigned to the crop
+   - `id` : Auto generated ID 
+   - `name` : Name of the crop
+   - `type` : Type of the crop
+   - `farmers` : List of farmers assigned to the crop
+   - `add_farmer` : Add a farmer to the crop
+   - `get_farmer` : Get a farmer from the crop
+   - `get_farmers` : Get all the farmers from the crop
+   - `get_farmers_count` : Get the number of farmers assigned to the crop
 4. The Farmer class should have the following attributes and methods:
-       a. `id` : Auto generated ID
-       b. `name` : Name of the farmer
-       c. `age` : Age of the farmer
+   - `id` : Auto generated ID
+   - `name` : Name of the farmer
+   - `age` : Age of the farmer
 5. The `id` attribute of the Crop and Farmer class should be auto generated.
 6. Implement the `__str__` method for the Farm, Crop and Farmer classes.
 7. Demonstrate the use of implemented classes by creating a farm object and adding crops and farmers to it.
@@ -259,30 +259,30 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 ### Task 6 : Object Oriented Programming for Class Management System(CMS)
 1. The task is to implement a the classes `Class`, `Student` and `Teacher` in `cms_classes.py` file.
 2. The Class class should have the following attributes and methods:
-       a. `name` : Name of the class
-       b. `students` : List of student objects in the class
-       c. `teachers` : List of teacher objects in the class
-       d. `add_student` : Add a student to the class
-       e. `add_teacher` : Add a teacher to the class
-       f. `get_student` : Get a student from the class
-       g. `get_teacher` : Get a teacher from the class
-       h. `get_students` : Get all the students from the class
-       i. `get_teachers` : Get all the teachers from the class
-       j. `get_students_count` : Get the number of students in the class
-       k. `get_teachers_count` : Get the number of teachers in the class
+   - `name` : Name of the class
+   - `students` : List of student objects in the class
+   - `teachers` : List of teacher objects in the class
+   - `add_student` : Add a student to the class
+   - `add_teacher` : Add a teacher to the class
+   - `get_student` : Get a student from the class
+   - `get_teacher` : Get a teacher from the class
+   - `get_students` : Get all the students from the class
+   - `get_teachers` : Get all the teachers from the class
+   - `get_students_count` : Get the number of students in the class
+   - `get_teachers_count` : Get the number of teachers in the class
 3. The Student class should have the following attributes and methods:
-       a. `id` : Auto generated ID 
-       b. `name` : Name of the student
-       c. `age` : Age of the student
+    - `id` : Auto generated ID 
+    - `name` : Name of the student
+    - `age` : Age of the student
 4. The Teacher class should have the following attributes and methods:
-       a. `id` : Auto generated ID
-       b. `name` : Name of the teacher
-       c. `age` : Age of the teacher
-       d. `students` : List of students assigned to the teacher
-       e. `add_student` : Add a student to the teacher
-       f. `get_student` : Get a student from the teacher
-       g. `get_students` : Get all the students from the teacher
-       h. `get_students_count` : Get the number of students assigned to the teacher
+    - `id` : Auto generated ID
+    - `name` : Name of the teacher
+    - `age` : Age of the teacher
+    - `students` : List of students assigned to the teacher
+    - `add_student` : Add a student to the teacher
+    - `get_student` : Get a student from the teacher
+    - `get_students` : Get all the students from the teacher
+    - `get_students_count` : Get the number of students assigned to the teacher
 5. The `id` attribute of the Student and Teacher class should be auto generated.
 6. Implement the `__str__` method for the Class, Student and Teacher classes.
 7. Demonstrate the use of implemented classes by creating a class object and adding students and teachers to it.
