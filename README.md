@@ -26,11 +26,11 @@
 
 ### General Instructions
 1. The assignment is to be done individually. You are `not allowed to collaborate` with other students. However, you are `allowed` to the discuss the assignment with the `course TAs`.
-2. Each student is required to complete `only 3 tasks` as given in the task allocation table.
+2. Each student is required to complete `only 3 tasks` as given in the [Task Allocation](#task-allocation) table.
 3. Tasks can be completed in any order. Partial credit will be given for completed tasks. 
 4. The assignment submission is handled via GitHub Classroom.
 5. Late submissions will not be accepted.
-6. Any hint of plagiarism will lead to 100% penalty without any further notice.
+6. More than **20% of plagiarism** will lead to **100% penalty** without any further notice.
 
 ### Evaluation Policy
 1. The submissions will be evaluated based on the correctness of the code.
