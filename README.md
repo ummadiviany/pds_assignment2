@@ -57,9 +57,9 @@
 5. Read the instructions in the `README.md` file and start working on the assignment.
 
 ### Auto Grading Instructions
-1. The auto grading and test cases are only available for the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions).
+1. The auto grading and test cases are only available for the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions).
 2. All the object oriented programming tasks are not auto graded.
-3. Whoever assigned with the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) should follow the auto grading instructions.
+3. Whoever assigned with the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) should follow the auto grading instructions.
 4. For auto graded questions your code will be tested against the online test cases. For this to work your code should produce the expected output in the format as specified in the test cases and example outputs.
 
 ### Submission Instructions

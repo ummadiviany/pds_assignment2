@@ -21,30 +21,7 @@ def print_pattern(x : int, n : int) -> int:
     """
     
  
-    if x==0:
-        return 0
-    if n==0 or x==1:
-        return 1
-    else:
-        
-        result =x*print_pattern(x,(n-1))
- 
-        temp=n
-        a=[]
-        b=[]
-
-        while temp>=0:
-            a.append(chr(97+temp))
-            a.insert(len(a)//2,chr(122-temp))
-            b=a[-2::-1]
-            temp-=1
-            
-        print(f'^{result}*-'.join(a),end=f'^{result+1}*-')
-        print(f'^{result}*-'.join(b),end='')
-        print(f'^{result}')
-        
-
-        return result
+    return
 
 if __name__ == "__main__":
     print(print_pattern(3,3))
