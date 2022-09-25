@@ -1,6 +1,8 @@
 # PDS Assignment 2
 > Assignment 2 for the class CS60013 : Programming and Data Structures is due on **10th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub.
 
+> This assignment is crafted by [Vinay](ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
+
 - [PDS Assignment 2](#pds-assignment-2)
   - [Instructions](#instructions)
     - [General Instructions](#general-instructions)
@@ -19,6 +21,8 @@
     - [Task 5 : Object Oriented Programming for Agriculture Management System(AMS)](#task-5--object-oriented-programming-for-agriculture-management-systemams)
     - [Task 6 : Object Oriented Programming for Class Management System(CMS)](#task-6--object-oriented-programming-for-class-management-systemcms)
     - [Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)
+  - [Resources](#resources)
+  - [All the best!](#all-the-best)
 
 ---
 
@@ -311,3 +315,11 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 
 6. This task is auto-graded. Run the test cases and check the correctness of your code.
  
+
+## Resources
+1. [Python Documentation](https://docs.python.org/3/)
+2. [Class Code Materials](https://github.com/ummadiviany/pds_snippets/)
+3. [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/9780262542364/introduction-to-computation-and-programming-using-python/)
+4. [Elements of Programming Interviews in Python]()
+   
+## All the best!
