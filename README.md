@@ -142,6 +142,14 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
       - Reasoning : 2+3* 4^2 => 2+3*16 => 2+48 => 50 
 
 
+## Task 3 : Recursive math expression evaluation
+1. Write the recursive code to find f(x)= $y^x$ where x is equals to $n^2$
+Note: all are positive numbers 
+2. Complete the function `RecursiveMath` in `RecursiveMathEqn.py` file.
+3. Here y,x,n should be read as integers
+4. Comment on the minimum number of recursive calls needed to evaluate the function (type the text at the end of your code as commented)
+
+
 
 
 ### Task 4 : Object Oriented Programming for Hospital Management System(HMS)
@@ -239,8 +247,9 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 1. The task is to implement the set of functions in `medical_transcription.py` file.
 2. These functions are to be used to process the medical transcriptions in `data/mtsamples.csv` file.
 3. This task is heavily oriented towards the use of collections and sequences in Python. Use the most appropriate collections and sequences as possible.
-4. For working with the CSV file, you can use the `csv` module in Python or the `pandas` module. `pandas` doesn't come pre-installed with Python. You can install it using `pip install pandas` command.
-5. In this task you will be implementing the following functions:
+4. For working with the CSV file, you can use the `csv` module in Python or the `pandas` module. `pandas` doesn't come pre-installed with Python. 
+5. You can install it using `pip install pandas` command.
+6. In this task you will be implementing the following functions:
    1. `get_medical_specalities`
       - Implement the function `get_medical_specalities` in `medical_transcription.py` file.
       - This function should return a list of all the medical specialities from the `medical_specialty` column in the `data/mtsamples.csv` file. The list should not contain any duplicates. The list should be sorted in alphabetically ascending order.
@@ -253,3 +262,62 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
       - Implement the function `get_medical_speciality_sample_names` in `medical_transcription.py` file.
       - This function should return a dictionary of all the medical specialities from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical speciality as the key and the list of sample names as the value. The dictionary should be sorted in alphabetically ascending order of the medical speciality.
       - Check the expected output in the `tests/transcription_outputs/get_medical_speciality_sample_names.txt` file.
+
+### Task 8 : Use the concept of recursion to print the following patern
+1.Find the hidden pattern using following examples 
+2.complete the code for function 'PrintPattern' in Pattern.py` file.
+3.Function takes two arguments: x and n both are integers 
+Note 1: Along with the printing pattern, the function should also return x^n
+Note 2: Your allowed to use loops inside the function but not outside
+        
+        Psudeo Code:
+        def PrintPattern(int:arguments)-> int:
+            
+            # code for printing pattern
+            
+            # Return result of $x^n$
+
+
+
+        Example 1: for x=2,n=2
+
+        y^1*-z^1*-b^1*-a^2*-b^1*-z^1*-y^1
+        x^2*-y^2*-z^2*-c^2*-b^2*-a^3*-b^2*-c^2*-z^2*-y^2*-x^2
+
+        Example 2: for x=3,n=5
+
+        y^3*-z^3*-b^3*-a^4*-b^3*-z^3*-y^3
+        x^9*-y^9*-z^9*-c^9*-b^9*-a^10*-b^9*-c^9*-z^9*-y^9*-x^9
+        w^27*-x^27*-y^27*-z^27*-d^27*-c^27*-b^27*-a^28*-b^27*-c^27*-d^27*-z^27*-y^27*-x^27*-w^27
+        v^81*-w^81*-x^81*-y^81*-z^81*-e^81*-d^81*-c^81*-b^81*-a^82*-b^81*-c^81*-d^81*-e^81*-z^81*-y^81*-x^81*-w^81*-v^81
+        u^243*-v^243*-w^243*-x^243*-y^243*-z^243*-f^243*-e^243*-d^243*-c^243*-b^243*-a^244*-b^243*-c^243*-d^243*-e^243*-f^243*-z^243*-y^243*-x^243*-w^243*-v^243*-u^243
+        
+        Example 3: for x=5,n=3
+
+        y^5*-z^5*-b^5*-a^6*-b^5*-z^5*-y^5
+        x^25*-y^25*-z^25*-c^25*-b^25*-a^26*-b^25*-c^25*-z^25*-y^25*-x^25
+        w^125*-x^125*-y^125*-z^125*-d^125*-c^125*-b^125*-a^126*-b^125*-c^125*-d^125*-z^125*-y^125*-x^125*-w^125
+
+### Task 9  Gemometry with oops
+
+1. Create a base class with name "Calulate" and create the following instances
+
+        a.Area of circle
+        b.Perimeter of circle
+        c.Radius of circle
+        c.Area of Trangle
+        d.create an instance with possible datatype and store lengths of all sides of traingles
+2. Impliment the methods in the base class with the following
+
+        a. To find area of the circle    # should return area in float format
+        b.To find area of the Trangle    # should return area in float format
+        c.To check the type of traingle Example "Equilateral triangle "or Right angle traingle etc.    # should be in string format
+3. Create a child class which inherits the base class with name "Center"
+
+        a. To store the center coordinates of the circle exaclty equals at half of the radius. Example : radius =5 then center coordinates equals to 2,2
+        b.To store the center of the traingle  # similar to the above example ,but here exatcly the center is at half of the mean value of lengths of all the three sides
+4. Create the two circle objects and two traingle objects with following properties
+
+        a. one circle with r1 radius and another circle with r2 radius  #Note: r2<r1
+        b.One traingle with the all equal lengths "l" and another with right angled
+5. Print all the measurements specified in base class 
