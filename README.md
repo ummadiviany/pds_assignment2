@@ -1,5 +1,5 @@
 # PDS Assignment 2
-> Assignment 2 for the class CS60013 : Programming and Data Structures is due on **10th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub.
+> Assignment 2 for the class CS60013 : Programming and Data Structures is due on **20th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub.
 
 > This assignment is crafted by [Vinay](https://ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
@@ -34,7 +34,7 @@
 3. Tasks can be completed in any order. Partial credit will be given for completed tasks. 
 4. The assignment submission is handled via GitHub Classroom.
 5. Late submissions will not be accepted.
-6. More than **20% of plagiarism** will lead to **100% penalty** without any further notice.
+6. More than **20% of code plagiarism** will lead to **100% penalty** without any further notice.
 
 ### Evaluation Policy
 1. The submissions will be evaluated based on the correctness of the code.
@@ -85,7 +85,7 @@
 5. Repeat steps 3 and 4 until you are done with the assignment.
 ### Deadline
 
-The deadline for the assignment is **10th October 2022, 23:59 IST**. No late submissions will be accepted.
+The deadline for the assignment is **20th October 2022, 23:59 IST**. No late submissions will be accepted.
 
 ---
 ## Assignment 2 : Topics
@@ -153,6 +153,8 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 3. **Note 1** : Along with the printing pattern, the function should also return `x^n`
 4. Strip any leading and trailing spaces from the pattern.
 5. **Examples**:
+
+ 
    1. Example 1:
       - `Input` : x = 2, n = 2
       - `Returns` : 4
@@ -302,15 +304,15 @@ The deadline for the assignment is **10th October 2022, 23:59 IST**. No late sub
 5. In this task you will be implementing the following functions:
    1. `get_medical_specalities`
       - Implement the function `get_medical_specalities` in `medical_transcription.py` file.
-      - This function should return a list of all the medical specialities from the `medical_specialty` column in the `data/mtsamples.csv` file. The list should not contain any duplicates. The list should be sorted in alphabetically ascending order.
+      - This function should return a list of all the medical specialties from the `medical_specialty` column in the `data/mtsamples.csv` file. The list should not contain any duplicates. The list should be sorted in alphabetically ascending order.
       - Check the expected output in the `tests/transcription_outputs/get_medical_specalities.txt` file.
    2. `get_medical_specialities_count`
       - Implement the function `get_medical_specialities_count` in `medical_transcription.py` file.
-      - This function should return a dictionary of all the medical specialities from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical speciality as the key and the number of times it occurs as the value. The dictionary should be sorted in descending order of the number of times the medical speciality occurs.
+      - This function should return a dictionary of all the medical specialties from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical specialty as the key and the number of times it occurs as the value. The dictionary should be sorted in descending order of the number of times the medical specialty occurs.
       - Check the expected output in the `tests/transcription_outputs/get_medical_specialities_count.txt` file.
    3. `get_medical_speciality_sample_names`
       - Implement the function `get_medical_speciality_sample_names` in `medical_transcription.py` file.
-      - This function should return a dictionary of all the medical specialities from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical speciality as the key and the list of sample names as the value. The dictionary should be sorted in alphabetically ascending order of the medical speciality.
+      - This function should return a dictionary of all the medical specialties from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical specialty as the key and the list of sample names as the value. The dictionary should be sorted in alphabetically ascending order of the medical specialty.
       - Check the expected output in the `tests/transcription_outputs/get_medical_speciality_sample_names.txt` file.
 
 6. This task is auto-graded. Run the test cases and check the correctness of your code.
