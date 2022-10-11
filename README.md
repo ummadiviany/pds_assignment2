@@ -1,7 +1,7 @@
 # PDS Assignment 2
-> Assignment 2 for the class CS60013 : Programming and Data Structures is due on **20th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub.
+> Assignment 2 for the class CS60013 : Programming and Data Structures is due on **20th October 2022 23:59 IST**. The assignment is worth **10%** of the total marks for the course. Assignment submission is done via GitHub Classroom.
 
-> This assignment is crafted by [Vinay](https://ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
+> This assignment crafted by [Vinay](https://ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
 - [PDS Assignment 2](#pds-assignment-2)
   - [Instructions](#instructions)
@@ -21,6 +21,7 @@
     - [Task 5 : Object Oriented Programming for Agriculture Management System(AMS)](#task-5--object-oriented-programming-for-agriculture-management-systemams)
     - [Task 6 : Object Oriented Programming for Class Management System(CMS)](#task-6--object-oriented-programming-for-class-management-systemcms)
     - [Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)
+    - [Task 8 : Collections and Sequences in Python : Application to ISBI 2022 Accepted Submissions](#task-8--collections-and-sequences-in-python--application-to-isbi-2022-accepted-submissions)
   - [Resources](#resources)
   - [All the best!](#all-the-best)
 
@@ -30,19 +31,17 @@
 
 ### General Instructions
 1. The assignment is to be done individually. You are `not allowed to collaborate` with other students. However, you are `allowed` to the discuss the assignment with the `course TAs`.
-2. Each student is required to complete `only 3 tasks` as given in the [Task Allocation](#task-allocation) table.
+2. Each student is required to complete **only 3 tasks** as given in the [Task Allocation](#task-allocation) table. The first 2 tasks are as designated and the third task is to be chosen from either [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) or [Task 8](#task-8--collections-and-sequences-in-python--application-to-isbi-2022-accepted-submissions).
 3. Tasks can be completed in any order. Partial credit will be given for completed tasks. 
 4. The assignment submission is handled via GitHub Classroom.
 5. Late submissions will not be accepted.
-6. More than **20% of code plagiarism** will lead to **100% penalty** without any further notice.
+6. `Important` : More than **20% of code plagiarism** will lead to **100% penalty** without any further notice.
 
 ### Evaluation Policy
 1. The submissions will be evaluated based on the correctness of the code.
 2. A `partial` credit will be given for the `correct` code that is `not complete`.
-3. The `correctness` of the code will be evaluated based on the `online test cases` associated with the assignment.
-4. Any `incorrect` code will be given `zero` credit.
-5. Any `late` submission will be given `zero` credit.
-6. Any `plagiarized` code will be given `zero` credit.
+3. The `correctness` of the code will be evaluated based on the `online test cases` associated with the task.
+4. Any `late` submission will be given `zero` credit.
 
 ### Instructions to get started with the assignment
 1. The assignment link will be shared via email.
@@ -61,9 +60,9 @@
 5. Read the instructions in the `README.md` file and start working on the assignment.
 
 ### Auto Grading Instructions
-1. The auto grading and test cases are only available for the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions).
-2. All the object oriented programming tasks are not auto graded.
-3. Whoever assigned with the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing) and [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) should follow the auto grading instructions.
+1. The auto grading and test cases are only available for the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) and [Task 8](#task-8--collections-and-sequences-in-python--application-to-isbi-2022-accepted-submissions).
+2. All the object oriented programming tasks are not auto graded. You have to test your code manually. You can do it as far as you can.
+3. Whoever assigned with the [Task 1](#task-1--recursive-file-text-search), [Task 2](#task-2--recursive-math-expression-evaluation), [Task 3](#task-3--recursive-pattern-printing), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) and [Task 8](#task-8--collections-and-sequences-in-python--application-to-isbi-2022-accepted-submissions) should follow the auto grading instructions.
 4. For auto graded questions your code will be tested against the online test cases. For this to work your code should produce the expected output in the format as specified in the test cases and example outputs.
 
 ### Submission Instructions
@@ -93,7 +92,6 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
   2. `Sequences` [Lists, Tuples, Strings, Dictionaries, Sets]
   3. `Iteration` and `Comprehensions`
   4. `Classes` and `Objects`
-  5. `Complexity Analysis`
 
 
 ---
@@ -101,20 +99,20 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
 
 | Student Identifier                            | Tasks Allotted                |
 |:---------------------------------------------:|:-----------------------------:|
-| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)|
-| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)|
-| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)|
-| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | [Task 3](#task-3--recursive-pattern-printing), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | [Task 3](#task-3--recursive-pattern-printing), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | [Task 3](#task-3--recursive-pattern-printing), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             |[Task 3](#task-3--recursive-pattern-printing) , [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | [Task 3](#task-3--recursive-pattern-printing), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| samriddha.das2000@kgpian.iitkgp.ac.in         | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | [Task 1](#task-1--recursive-file-text-search), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
-| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions) |
+| KAVINPURI@KGPIAN.IITKGP.AC.IN                 | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis)|
+| SOUMITAGURIAPHD22@KGPIAN.IITKGP.AC.IN         | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis)|
+| NAJAFARA.FATHIMA@KGPIAN.IITKGP.AC.IN          | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| POOJA.JAIN@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| MAMTA.RANI@KGPIAN.IITKGP.AC.IN                | [Task 2](#task-2--recursive-math-expression-evaluation), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis)|
+| BHANUMEENA27@KGPIAN.IITKGP.AC.IN              | [Task 3](#task-3--recursive-pattern-printing), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| DR.RAMKUMARKRISHNADHAS@KGPIAN.IITKGP.AC.IN    | [Task 3](#task-3--recursive-pattern-printing), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| DRREFLEXPATEL94@KGPIAN.IITKGP.AC.IN           | [Task 3](#task-3--recursive-pattern-printing), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| KAMLESHTONY10@KGPIAN.IITKGP.AC.IN             |[Task 3](#task-3--recursive-pattern-printing) , [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| DRPRABHUKALYAN@KGPIAN.IITKGP.AC.IN            | [Task 3](#task-3--recursive-pattern-printing), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| AMARMAJHI@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| samriddha.das2000@kgpian.iitkgp.ac.in         | [Task 1](#task-1--recursive-file-text-search), [Task 5](#task-5--object-oriented-programming-for-agriculture-management-systemams), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| SAURABHCHAUDHARI97@KGPIAN.IITKGP.AC.IN        | [Task 1](#task-1--recursive-file-text-search), [Task 4](#task-4--object-oriented-programming-for-hospital-management-systemhms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
+| SATHISHBT@KGPIAN.IITKGP.AC.IN                 | [Task 1](#task-1--recursive-file-text-search), [Task 6](#task-6--object-oriented-programming-for-class-management-systemcms), [Task 7](#task-7--collections-and-sequences-in-python--application-to-medical-transcriptions)/[Task 8](#task-8--collections-and-sequences-in-python--isbi-2022-accepted-submission-analysis) |
 
 ---                     
 ## Tasks
@@ -129,6 +127,7 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
 7. The recursion can be either functional or iterative. Better to use `iterative recursion`.
 8. Directory tree : `data/emails/`
 9. Output : Return a `list of emails(without duplicates) in alphabetically sorted order`
+10. This task is **auto-graded**. Check the correctness of your code before submission.
 
 
 ### Task 2 : Recursive math expression evaluation
@@ -145,7 +144,8 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
       - Input : "2+3*4^2"
       - Output : 50
       - Reasoning : 2+3* 4^2 => 2+3*16 => 2+48 => 50 
-
+6. The recursion can be either functional or iterative.
+7. This task is **auto-graded**. Check the correctness of your code before submission.
 
 ### Task 3 : Recursive pattern printing
 1. The task is to implement the function `print_pattern` in `recursive_pattern.py` file. 
@@ -190,7 +190,8 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
 >        v^81*-w^81*-x^81*-y^81*-z^81*-e^81*-d^81*-c^81*-b^81*-a^82*-b^81*-c^81*-d^81*-e^81*-z^81*-y^81*-x^81*-w^81*-v^81
 >        u^243*-v^243*-w^243*-x^243*-y^243*-z^243*-f^243*-e^243*-d^243*-c^243*-b^243*-a^244*-b^243*-c^243*-d^243*-e^243*-f^243*-z^243*-y^243*-x^243*-w^243*-v^243*-u^243
 
-
+6. This task is a bit tricky. So, try to understand the pattern and then implement the function.
+7. This task is **auto-graded**. So, make sure you are returning the correct value and printing the correct pattern.
 
 
 ### Task 4 : Object Oriented Programming for Hospital Management System(HMS)
@@ -226,7 +227,7 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
  7. Demonstrate the use of implemented classes by creating a hospital object and adding doctors and patients to it.
  8. The demo driver code should make use of all the implemented methods of the classes.
  9. This task has no test cases. You can test your code by running the `hms_classes.py` file.
- 10. This task will not be auto-graded.
+ 10. This task will **not be auto-graded**.
 
 ### Task 5 : Object Oriented Programming for Agriculture Management System(AMS)
 1. The task is to implement a the classes `Farm`, `Crop`, `Farmer` and  in `ams_classes.py` file.
@@ -260,7 +261,7 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
 7. Demonstrate the use of implemented classes by creating a farm object and adding crops and farmers to it.
 8. The demo driver code should make use of all the implemented methods of the classes.
 9. This task has no test cases. You can test your code by running the `ams_classes.py` file.
-10. This task will not be auto-graded.
+10. This task will **not be auto-graded**.
 
 ### Task 6 : Object Oriented Programming for Class Management System(CMS)
 1. The task is to implement a the classes `Class`, `Student` and `Teacher` in `cms_classes.py` file.
@@ -294,7 +295,7 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
 7. Demonstrate the use of implemented classes by creating a class object and adding students and teachers to it.
 8. The demo driver code should make use of all the implemented methods of the classes.
 9. This task has no test cases. You can test your code by running the `cms_classes.py` file.
-10. This task will not be auto-graded.
+10. This task will **not be auto-graded**.
 
 ### Task 7 : Collections and Sequences in Python : Application to Medical Transcriptions
 1. The task is to implement the set of functions in `medical_transcription.py` file.
@@ -315,9 +316,37 @@ The deadline for the assignment is **20th October 2022, 23:59 IST**. No late sub
       - This function should return a dictionary of all the medical specialties from the `medical_specialty` column in the `data/mtsamples.csv` file. The dictionary should have the medical specialty as the key and the list of sample names as the value. The dictionary should be sorted in alphabetically ascending order of the medical specialty.
       - Check the expected output in the `tests/transcription_outputs/get_medical_speciality_sample_names.txt` file.
 
-6. This task is auto-graded. Run the test cases and check the correctness of your code.
+6. This task is **auto-graded**. Run the test cases and check the correctness of your code.
  
 
+### Task 8 : Collections and Sequences in Python : Application to ISBI 2022 Accepted Submissions
+1.  The task is to implement the set of functions in `isbi2022.py` file.
+2.  These functions are to be used to process the ISBI 2022 accepted submissions in `data/isbi2022.csv` file.
+3.  The given dataset `data/isbi2022.csv` file is a scrapped dataset from the ISBI 2022 accepted submissions page. Each record in the dataset represents a paper that has been accepted for presentation at ISBI 2022. Each record will have the following attributes:
+    - `citationCount` : Number of citations for the paper
+    - `articleTitle` : Title of the paper
+    - `downloadCount` : Number of times the paper has been downloaded
+    - `authors` : List of authors of the paper
+4. There are other attributes in the dataset. You can explore them on your own. The dataset conists of 313 records.
+4.  This task is heavily oriented towards the use of collections and sequences in Python. Use the most appropriate collections and sequences as possible.
+5.  For working with the JSON file, you can use the `json` module in Python.
+6.  In this task you will be implementing the following functions:
+    1.  `get_authors`
+        - Implement the function `get_authors` in `isbi2022.py` file.
+        - This function should return a dictionary of all the unique authors from the given dataset and the number of times they have appeared in the dataset. The dictionary should be sorted in descending order of the number of times the author has appeared in the dataset.
+        - Check the expected output in the `tests/isbi2022_outputs/get_authors.json` file.
+    
+    2. `get_titles`
+         - Implement the function `get_titles` in `isbi2022.py` file.
+         - This function should return a dictionary of all the titles as the key and the sum of the `citationCount` and `downloadCount` as the value. The dictionary should be sorted in descending order of the sum of the `citationCount` and `downloadCount`.
+         - Check the expected output in the `tests/isbi2022_outputs/get_titles.json` file.
+    3. `get_word_cloud`
+         - Implement the function `get_word_cloud` in `isbi2022.py` file.
+         - This function should return a dictionary of all the words in the `articleTitle` attribute as the key and the number of times the word has appeared in the `articleTitle` attribute as the value. The dictionary should be sorted in descending order of the number of times the word has appeared in the `articleTitle` attribute.
+         - Check the expected output in the `tests/isbi2022_outputs/get_word_cloud.json` file.
+
+7. This task is **auto-graded**. Run the test cases and check the correctness of your code.
+   
 ## Resources
 1. [Python Documentation](https://docs.python.org/3/)
 2. [Class Code Materials](https://github.com/ummadiviany/pds_snippets/)
